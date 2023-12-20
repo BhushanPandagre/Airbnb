@@ -1,0 +1,671 @@
+.details{
+    height: 380px;
+    width: 400px;
+    background-color: rgb(254, 250, 250);
+    border-radius: 30px;
+    display: none;
+    position: absolute;
+    scale: 1;
+    z-index: 10;
+}
+#dil:checked~.details{
+    display: block;
+    left: 400px;
+    top: 200px;
+    
+}
+.details form{
+    margin: 20px;
+}
+.formgrid{
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+.formgrid input{
+    padding: 2px;
+}
+.country{
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+.country div{
+    padding: 2px;
+}
+.details form h2 a{
+    margin-right: 100px;
+}
+#des{
+    margin-top: 10px;
+}
+.button{
+    background-color: red;
+    color: black;
+    padding: 13px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+
+
+
+nav{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.201);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar li{
+    list-style-type: none;
+}
+.navbar li a{
+   
+    text-decoration: none;
+    margin: 4px;
+}
+.centernav{
+    padding: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.201);
+    border-radius: 30px;
+}
+.centernav a{
+    padding: 2px 5px 0px 5px;
+    border-right: 1px solid rgba(0, 0, 0, 0.243);
+    color: black;
+}
+.lastnav{
+    display: flex;
+}
+.lastnav a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+}
+.lastnav a i{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 15px;
+
+}
+.iconbarsuser{
+     /* width: 90px; */
+    /* height: 40px; */ 
+    display: flex;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.201);
+}
+.iconbarsuser a i{
+    margin: 3px 3px 0px 1px  ;
+    padding: 0px;
+
+}
+.bhushan{
+    display: flex;
+    margin-top: 33px;
+}
+.types{
+    overflow: scroll;
+    display: flex;
+    width: 1090px;
+    margin-left: 50px;
+}
+.types div a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.676);
+    font-size: 13px;
+}
+.types div a img{
+    width: 22px;
+    color: rgba(0, 0, 0, 0.363);
+    opacity: 0.676;
+    margin-right: 70px;
+}
+.types::-webkit-scrollbar{
+    display: none;
+}
+.filter{
+    height: 40px;
+   margin-left: 20px;
+    padding: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.201);
+    border-radius: 8px;
+}
+.filter  i{
+   padding-right: 20px;
+}
+.filter a{
+    /* margin-bottom: 20px; */
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.taxes {
+    margin-left: 15px;
+   height: 40px ;
+    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.201);
+    border-radius: 8px;
+}
+.taxes a{
+    text-decoration: none;
+    color: black;
+}
+.taxes a div{
+    padding: 10px;
+    
+}
+.grid1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+     justify-content: space-evenly;
+    margin-top: 25px;
+}
+.grid1 div a{
+    text-decoration: none;
+}
+.grid1 div a img{
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+}
+#infoimg{
+    margin-bottom: 30px;
+    margin-left: 32px;
+}
+#dilkiid{
+    position: relative;
+    left: 260px;
+    bottom: 250px;
+    font-size: 25px;
+    color: white;
+}
+.btn{
+    background-color: rgb(15, 15, 17);
+    padding: 6px;
+    border: 2px solid rgb(1, 1, 1);
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 4px;
+    font-family: serif;
+
+}
+    .btn:hover{
+        color:rgb(38, 38, 82);
+        background-color: rgb(0, 255, 51);
+}
+.footer{
+     font-size: 35px; 
+    font-weight: 400;
+    color: black;
+    margin-left: 30px;
+
+}
+.list{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    width: 900px;
+    font-size: 18px;
+    list-style: none;
+    margin-left: 1px;
+
+}
+/* .......................................footer........................ */
+.foot_menu{
+    float: left;
+    width: 16%;
+    margin-left: 25px;
+    padding-top: 30px;
+    
+}
+
+.foot_menu h3{
+    font-size: 18px;
+}
+.foot_menu ul{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+.foot_menu ul li p{
+font-size: 18px;
+color: rgba(0 ,0,0,0.4);
+}
+.foot_menu ul li p:hover{
+    color: chocolate;
+}
+/* ............................one................................. */
+.food_menu{
+    float: left;
+    width: 30%;
+    margin-left: 25px;
+    padding-top: 30px;
+    
+}
+
+.food_menu h3{
+    font-size: 18px;
+}
+.food_menu ul{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+.food_menu ul li p{
+font-size: 18px;
+color: rgba(0 ,0,0,0.4);
+}
+.food_menu ul li p:hover{
+    color: chocolate;
+}
+/* .................................last............................ */
+
+.kood_menu{
+    float: left;
+    display: flex;
+    position: relative;
+    right: 450px;
+    padding-top: 20px;
+    
+}
+
+.wood_menu{
+    float: right;
+    display: flex;
+    position: relative;
+    right: 20px;
+    padding-top:20px ;
+
+}
+
+/* ...................house details................... */
+.house-details {
+    padding: 0 12%;
+}
+.house-title{
+    margin-top: 50px;
+}
+.house-title h1{
+    font-weight: 500;
+}
+.house-title .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0;
+}
+.house-title span{
+    margin: 0 20px;
+
+}
+.house-title i{
+    color: #ff5361;
+    font-size: 14px;
+}
+.gallery{
+    display: grid;
+    grid-gap: 10px; 
+    grid-template-areas: 'first first . .' 'first first . .';
+    margin: 20px 0;
+}
+.gallery div img{
+     width: 100%;
+    display: block;
+    border-radius: 10px; 
+}
+.gallery-img1{
+    grid-area: first;
+}
+.small-details h2{
+    font-weight: 500;
+}
+.small-details h4{
+    text-align: right;
+    font-size: 22px;
+}
+.line{
+    border: 0px;
+    height: 1px;
+    background: #ccc;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0 50px;
+}
+.check-form{
+    margin: 30px 0;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3 );
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 50px;
+
+}
+.check-form label{
+    display: block;
+}
+.check-form div{
+    padding: 20px;
+
+}
+.check-form input{
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+.check-form button{
+    background: #ff5361;
+    border: 0;
+    outline: none;
+    color: #fff;
+    padding: 18px;
+    width: 350px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.guest-field{
+    flex: 1;
+}
+.details-list{
+    list-style: none;
+    margin: 50px 0;
+}
+.details-list li{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #555;
+    position: relative;
+}
+.details-list li span{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+}
+.details-list li i{
+    position: absolute;
+    top: 5px;
+    left: -40px;
+}
+.home-desc{
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+.map{
+    margin: 50px 0;
+}
+.map iframe{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.map h3{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.map b{
+    display: block;
+    margin-bottom: 16px;
+}
+.host{
+    display: flex;
+    align-items: center;
+}
+.host img{
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 30px;
+
+}
+.host h2{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.host i{
+    color: #ff5361;
+}
+.Contact-host{
+    display: inline-block;
+    margin: 40px 0 40px 120px;
+    text-decoration: none;
+    color: #555;
+    padding: 15px 50px;
+    border: 1px solid #ff5361;
+    border-radius: 8px;
+}
+/* .....................footer................ */
+.footer2{
+    margin: 80px 0 10px;
+    text-align: center;
+}
+.footer2 a{
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+.footer2 hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+.footer2 p{
+    padding-bottom: 15px;
+}
+
+
+
+/* ..................media query for house details page........... */
+@media only screen and (max-width:700px){
+    .house-details{
+        margin-top: 150px;
+    }
+    .row p{
+        margin-top: 10px;
+    }
+    .gallery{
+        grid-template-areas: 'first first' '..''..';
+    }
+    .small-details h2{
+        font-size: 20px;
+        margin-top: 24px;
+    }
+    .small-details h4{
+        text-align:left ;
+        margin: 10px 0;
+        font-size: 18px;
+    }
+    .check-form{
+        padding: 10px 30px;
+    }
+    .check-form div{
+        padding: 20px 0;
+        width: 100%;
+    }
+    .check-form input{
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        padding-bottom: 5px;
+    }
+    .check-form button{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+    }
+    .host{
+        display: block;
+        line-height: 28px;
+    }
+    .Contact-host{
+        margin: 40px 0;
+    }
+}
+/* ..................listinghtml................ */
+
+.navbar-white{
+    background: #fff;
+    box-shadow: 0 5px 10px fgba(0,0,0,0.05);
+}
+.navbar-white .nav-links li a{
+    color: #000;
+}
+.navbar-white .register-btn{
+    background: #ff5361;
+    color: #fff;
+}
+ nav.navbar-white .fa-bars{
+    color: #000;
+ }
+ .navbar-white .active::after{
+    background: #ff5361;
+ }
+ .list-container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.left-col{
+flex-basis: 70%;
+}
+.right-col{
+    flex-basis: 25%;
+}
+.left-col h1{
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 30px;
+} 
+.house{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 30px 0;
+border-top: 1px solid #ccc;
+
+}
+.house-img{
+    flex-basis: 40%;
+}
+.house-info{
+    flex-basis: 58%;
+    color: #555;
+}.house-img img{
+    width: 100%;
+    border-radius: 12px;
+}
+.house-info h3 {
+    font-weight: 600;
+    color: #333;
+    font-size: 22px;
+    margin: 4px 0;
+}
+.house-info i{
+    color: #ff5361;
+    font-size: 18px;
+    margin: 10px 1px;
+
+}
+.house-price{
+    text-align: right;
+}
+.house-price h4{
+    font-size: 20px;
+}
+.house-price h4 span{
+    font-size: 16px;
+    font-weight: 500;
+}
+.sidebar{
+    border: 1px solid #999;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+.sidebar h2{
+    font-weight: 500;
+}
+.sidebar h3{
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    color: #555;
+    margin-bottom: 10px;
+
+}
+.filter p{
+    flex: 1;
+}
+.filter input{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.sidebar-link{
+    text-align: right;
+    margin: 20px 0;
+}
+.sidebar-link a{
+    text-decoration: none;
+
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+.pagination img{
+    width: 15px;
+    margin: 10px 20px;
+}
+.right-arrow{
+    transform: rotate(180deg);
+
+}
+.pagination span{
+    margin: 10px 8px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.pagination .current{
+    background: #333;
+    color: #fff;
+}
+/* ...............small screen for listing page......... */
+@media only screen and (max-width:700px){
+    .list-container{
+        .left-col,.right-col,.house-img,.house-info{
+            flex-basis: 100%;
+        }
+        .left-col h1{
+            font-size: 22px;
+        }
+        .house-info h3{
+            font-size: 18px;
+        }
+        .house-info i{
+            font-size: 16px;
+        }
+        .pagination span{
+            margin: 10px 2px;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 12px;
+        }
+    }
+}
